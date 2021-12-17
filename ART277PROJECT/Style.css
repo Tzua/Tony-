@@ -1,0 +1,535 @@
+
+#cl{
+    background-image: url(photos/salad.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;a
+}
+
+ 
+     
+    }
+   /* span{
+        float:right;
+        font-family:arial black;
+        font-size: 18px;
+        
+        background-color: whitesmoke;
+        
+    }*/
+    #float{
+        float:left ;
+        font-family: arial black;
+        font-size: 15px;
+        color: blue;
+        
+        
+    }
+    #style{
+    background-color: blue;
+    color: white;
+    font-style: italic;
+    font-family: arial black;
+    font-size: 10px;
+    
+    }
+    #sara{
+        font-size: 20px;
+        color: red;
+        font-style: italic;
+        font-family: arial black;
+        background-color: #f8f9f9;
+      
+    }
+    #go{
+        font-family: arial black;
+        text-align: center;
+        color: blue;
+    }
+    
+#so{
+   font-family: arial black;
+   font-size: 50px;
+   color:white;
+   text-align: left;
+}
+#re{
+   background-color:grey;
+}
+    
+#cd{
+   
+}   
+.div1{
+   background-image: linear-gradient(to top right, lightblue 50%, pink 50%);
+   width: 1600px;
+   height: 100px
+}   
+/*nav bar where you the link for the pages*/
+*{
+   box-sizing: border-box;
+} 
+html,body {
+   margin: 0;
+   padding: 0;
+
+}
+.nav-bar a{
+   text-decoration: none;
+   color: black;
+   display: block;
+
+
+}
+.nav-bar> ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+}
+ .nav-bar> ul > li> a {
+     padding: 10px;
+     background: lightgray;
+
+     
+ }
+
+ .nav-bar> ul > li > a:hover{
+     background: #173459;
+     color: #f8f9f9;
+ }
+ .nav-bar .active{
+background: #173459;
+color: #f8f9f9;
+ }
+ .nav-bar>ul>li{
+     float: left;
+     width: 25%;
+     height: 30%;
+     text-align: center;
+ }
+
+ @keyframes myAnimation{
+   form{
+       font-size: 15px;
+       color: blue;
+   }  
+   to{
+       font-size: 60px;
+       color:white; 
+       text-align: center;
+        }
+ h6{
+     animation-name: myAnimation;
+     animation-duration: 2s;
+     animation-fill-mode: both; 
+ }
+ /*#kile{
+     font-family: verdana;
+   font-size: 20px;
+     text-align: center;
+     color: rgb(0, 255, 115)s;*/
+     
+     
+ }
+ #kwame{
+     font-size: 30px;
+     color:rgb(0, 255, 115);
+
+ }
+ *{
+     box-sizing: border-box;
+ }
+ html,body{
+     margin: 0;
+     padding: 0;
+ }
+ .form-container{
+     margin: 20px;
+     padding: 15px;
+     background: #173459;
+     color:white;
+     box-shadow: 0 5px 10px 0 rgba(red, green, blue, alpha), 0 7px 21px 0 rgba(red, green, blue, alpha);
+
+ }
+ .input-cnt{
+     display: flex;
+     margin-bottom: 15px;
+ }
+ .input-cnt:last-child{
+     margin-bottom: 0px;
+ }
+ .input-cnt>i{
+     min-width: 20px;
+     padding: 10px;
+     text-align: center;
+     background-color: lightgrey;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     color: #0076ff;
+ }
+ .input-cnt:hover> i {
+     background-color: #0076ff;
+     color: white;
+ }
+ .input-cnt > input[type="text"], .input-cnt>input[type="password"] {
+   outline: none;
+   border: none
+   padding: 10px;
+   border:  1px solid lightgrey;
+   border-top right radius: 40px;
+   border-bottom-right-radius: 20px
+   width: 100%;
+ }
+ .input-cnt> input[type="submit"]{
+     border: none;
+     border-radius: 20px;
+     outline: none;
+     width: 35%;
+     margin: 0 auto;
+     font-size: 105%;
+     padding: 8px;
+     color: #0076ff;
+     background: #f8f9f9;
+     transition-duration: .5s ;
+ }
+ .input-cnt>input[type="sumit"]:hover{
+     color:white;
+     background: #0076ff;
+ }
+ #ul{
+     font-family: sans-serif;
+     font-size: 40px;
+     text-align: center;
+     color: white;
+   
+    
+ }
+#ng{
+    text-align: center;
+
+}
+#too{
+    float: left;
+    border-radius: 200px;
+    width: 100px;
+}
+#goo{
+    float: right;
+    border-radius: 200px;
+    width: 100px;
+}
+
+/*contactus*/
+#wow{
+    background-image: url(photos/hall.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+  #jav{
+                text-align: right;
+                font-family: arial black;
+                font-size: 15px;
+                color:red;
+                font-style: italic;
+                background-color: white;
+             }
+      
+        
+    
+        #you{
+            font-size: 60px;
+            
+        }
+       
+      #love{
+          width: 30rem;
+          background:lightblue;
+          border: 1.4rem solid;
+          border-image: url(photos/donut.jpg)60;
+          border-image-outset: 1.5;
+          margin: 2.1rem;
+          height: 25rem;
+          font-family: ;
+        
+      }
+      #dil{
+          font-family: monospace;
+          font-size: 50px;
+         text-shadow: yellow;
+      }
+      .button-group button{
+        font-family: serif;
+        border: none;
+        padding: 10px 20px;
+        font-size: 14px;
+        outline: none;
+        background: transparent;
+        color: #f8f9f9;
+        background: #903c56;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        
+      }
+      .button-group button:hover{
+          color: #903c56;
+          background: #f8f9f9;
+      }
+      #xk{
+          color: white;
+          font-size: 40px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      
+/*view*/
+#oyo{
+    float: right;
+    font-size: 20px;
+    
+    
+ }
+ #gt{
+     color:lightgray;
+     font-family: 'arial black';
+     font-size: 20px;
+     text-align: center;
+  
+    
+ }
+
+ .container{
+     position: relative;
+     
+ }
+ span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 70px;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+#da{
+     width: 1200px;
+     height: 600px;
+ }
+
+
+  
+  h6{
+      animation-name: myAnimation;
+      animation-duration: 2s;
+      animation-fill-mode: both;
+  }
+  #kile{
+      font-family: verdana;
+    font-size: 20px;
+      text-align: center;
+      color: rgb(0, 255, 115)s;
+      
+      
+  }
+  #kwame{
+      font-size: 30px;
+      color:rgb(0, 255, 115);
+      background-color: ;
+  }
+  *{
+      box-sizing: border-box;
+  }
+ 
+  }
+  .form-container{
+      margin: 20px;
+      padding: 15px;
+      background: #173459;
+      color:white;
+      box-shadow: 0 5px 10px 0 rgba(red, green, blue, alpha), 0 7px 21px 0 rgba(red, green, blue, alpha);
+     
+
+  }
+  .input-cnt{
+      display: flex;
+      margin-bottom: 15px;
+  }
+  .input-cnt:last-child{
+      margin-bottom: 0px;
+  }
+  .input-cnt>i{
+      min-width: 20px;
+      padding: 10px;
+      text-align: center;
+      background-color: lightgrey;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      color: #0076ff;
+  }
+  .input-cnt:hover> i {
+      background-color: #0076ff;
+      color: white;
+  }
+  .input-cnt > input[type="text"], .input-cnt>input[type="password"] {
+    outline: none;
+    border: none
+    padding: 10px;
+    border:  1px solid lightgrey;
+    border-top right radius: 40px;
+    border-bottom-right-radius: 20px
+    width: 100%;
+  }
+  .input-cnt> input[type="submit"]{
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      width: 35%;
+      margin: 0 auto;
+      font-size: 105%;
+      padding: 8px;
+      color: #0076ff;
+      background: #f8f9f9;
+      transition-duration: .5s ;
+  }
+  .input-cnt>input[type="sumit"]:hover{
+      color:white;
+      background: #0076ff;
+  }
+  #ub{
+      text-align: center;
+      font-size: 40px;
+      font-family: fantasy;
+     
+    
+      
+  }
+  #koi{
+     
+     width: 100px;
+  }
+  #ln{
+      font-size: 30px;
+      color: blue;
+     
+  }
+  #hi{
+      background-color:black;
+  }
+#ty{
+background-color: black;
+
+height: 80px;
+}
+#ol{
+float: left;
+}
+#gfh{
+color: gold;
+font-size: 60px;
+text-align: center;
+
+}
+#opop{
+font-size: 40px;
+text-align: center;
+font-family: 'Franklin' ;
+}
+#ttt{
+text-align: center;
+font-size: 25px;
+color: blue;
+}
+#ypo{
+float: right;
+}
+#sd{
+font-size: 45px;
+text-align: center;
+width: 80px;
+font-family: arial black;
+color: gold;
+}
+#mnb{
+background-color:black;
+}
+#re{
+text-align: center;
+background-color: black;
+
+}
+#zx{
+font-size: 60px;
+color: gold;
+font-family: arial;
+text-align: center;
+
+}
+
+
+/*About*/
+#reeb{
+ font-size: 20px;
+ color: brown;
+ font-family: arial ;  
+}
+#vb{
+    font-size: 30px;
+    color: brown;
+    font-family: arial ;
+}
+#hhh{
+    float: right;
+    border-radius: 100%;
+}
+#lb{
+    color: blue;
+    font-size: 30px;
+}
+#aaa{
+    font-family: arial ; 
+    text-align: center;
+}
+#gbv{
+    text-align: center;
+    list-style-type:none;
+    font-size: 25px;
+    font-family: arial black;
+    color: blue;
+}
+h3{
+    font-family: arial black;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: turquoise;
+}
+#zaq{
+    font-family: arial;
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+}
+#wq{
+   text-align: right;
+   background-color:lightslategray;
+  color: #f8f9f9;
+}
+#bcv{
+    font-family: arial;
+}
+#qqq{
+    font-size: 23px;
+}
+#pink{
+    
+}
+#solok{
+    background-image: url(Photos/cake.jpg);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#pd{
+    font-size: 25px;
+}
